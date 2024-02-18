@@ -1,0 +1,29 @@
+* {
+    font-family: Arial, sans-serif;
+    padding: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+body {
+}
+
+nav {
+    background-color: black;
+    color: white;
+    margin-top: 0%;
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.navbar-links {
+    text-decoration: none;
+    color: inherit;
+}
