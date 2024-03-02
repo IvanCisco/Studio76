@@ -14,6 +14,7 @@ nav {
     color: white;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 
 .navbar {
@@ -32,16 +33,31 @@ nav {
 }
 
 main {
+    position: relative;
     display: block;
+    color: white;
     justify-content: center;
     background-image: url("../images/ST76Hendel.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-size: cover;
     height: 100vh;
 }
 
 #main-header {
+    position: relative;
+    top: 6%;
     text-align: center;
-}   
+}
+
+div {
+    position: absolute;
+    width: 70vw;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
