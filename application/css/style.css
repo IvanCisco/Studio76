@@ -51,7 +51,7 @@ main {
     text-align: center;
 }
 
-div {
+#main-p {
     position: absolute;
     width: 70vw;
     top: 30%;
@@ -60,4 +60,22 @@ div {
     transform: translate(-50%, -50%);
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.gear {
+    position: relative;
+    height: 100vh;
+}
+
+#rhodes {
+    height: 100vh;
+    background-image: url("../images/236_-399908324.jpg");
+    background-repeat: no-repeat;
+}
+
+#studio {
+    height: 100vh;
+    background-image: url("../images/Blank+Studio.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
